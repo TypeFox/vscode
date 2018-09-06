@@ -89,7 +89,7 @@ gulp.task('extract-editor-src', ['clean-editor-src'], function () {
 		compilerOptions: {
 			module: 2, // ModuleKind.AMD
 		},
-		shakeLevel: 2, // 0-Files, 1-InnerFile, 2-ClassMembers
+		shakeLevel: 0, // 0-Files, 1-InnerFile, 2-ClassMembers
 		importIgnorePattern: /^vs\/css!/,
 		destRoot: path.join(root, 'out-editor-src')
 	});
