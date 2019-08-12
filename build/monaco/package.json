@@ -1,7 +1,7 @@
 {
-  "name": "monaco-editor-core",
+  "name": "@typefox/monaco-editor-core",
   "private": true,
-  "version": "0.16.0",
+  "version": "0.18.0-next.1",
   "description": "A browser based code editor",
   "author": "Microsoft Corporation",
   "license": "MIT",
@@ -13,5 +13,8 @@
   },
   "bugs": {
     "url": "https://github.com/Microsoft/vscode/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
